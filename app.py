@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st 
 import joblib
 
-regressor=joblib.load('model.pkl')
+regressor=joblib.load('model_dep.pkl')
 
 
 def welcome():
