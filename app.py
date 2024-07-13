@@ -4,7 +4,7 @@ import numpy as np
 import streamlit as st
 
 
-regressor = joblib.load('model_dep.pkl')
+regressor = joblib.load('model.pkl')
 df = pd.read_csv('bmw.csv')
 
 def predict_bmw_price(model, year, transmission, mileage,fuelType ,tax, mpg, engineSize):
